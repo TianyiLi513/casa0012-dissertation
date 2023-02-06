@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Retail_d_4   R-squared:                       0.933
+Model:                            OLS   Adj. R-squared:                  0.921
+Method:                 Least Squares   F-statistic:                     75.17
+Date:                Sun, 05 Feb 2023   Prob (F-statistic):           5.51e-15
+Time:                        10:56:17   Log-Likelihood:                 379.33
+No. Observations:                  33   AIC:                            -746.7
+Df Residuals:                      27   BIC:                            -737.7
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const          -3.873e-05    2.6e-05     -1.489      0.148   -9.21e-05    1.47e-05
+Pop_Density       -0.0004      0.000     -1.623      0.116      -0.001    9.45e-05
+gender_percent  2.307e-07   1.23e-07      1.877      0.071   -2.15e-08    4.83e-07
+avg_age         3.749e-07   5.05e-07      0.743      0.464   -6.61e-07    1.41e-06
+avg_income      2.348e-11   2.99e-11      0.786      0.439   -3.79e-11    8.48e-11
+AvPTAI              5e-07   5.26e-08      9.509      0.000    3.92e-07    6.08e-07
+==============================================================================
+Omnibus:                       40.815   Durbin-Watson:                   2.289
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              181.632
+Skew:                           2.511   Prob(JB):                     3.62e-40
+Kurtosis:                      13.338   Cond. No.                     3.06e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.06e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
